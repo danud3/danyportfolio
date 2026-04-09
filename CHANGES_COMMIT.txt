@@ -1,0 +1,27 @@
+Suggested commit for the changes made locally:
+
+Git commands to run from the repository root (PowerShell):
+
+# Stage changes
+git add styles.css contact.html contact.html thank-you.html bilan.html mentions-legales.html securite.html script.js e6.html
+
+# Commit
+git commit -m "UI: unify typography, make contact Formspree integration + thank-you redirect, refactor bilan layout and animations, update legal/security pages (Vercel), add GitHub links and obfuscate email"
+
+# Optional: push to remote
+# git push origin main
+
+Files modified/created:
+- styles.css (typography tokens, consistent headings, button/link styles)
+- script.js (GitHub link injection, email obfuscation, bilan animations)
+- contact.html (Formspree integration + redirect)
+- thank-you.html (new)
+- bilan.html (refactor hero, bubble text, skills layout)
+- mentions-legales.html (updated host to Vercel, contact phone)
+- securite.html (updated host to Vercel, contact phone)
+- e6.html (project PDF buttons)
+
+Notes:
+- The form uses Formspree endpoint: https://formspree.io/f/mvzrawvo
+- Add project PDFs to assets/ if you want the E6 buttons to work
+- Check pages locally with: python -m http.server 8000

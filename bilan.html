@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bilan | LIN Dany — Portfolio</title>
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="page-bilan">
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="logo" aria-label="Accueil">LIN Dany</a>
+            <button id="menuToggle" class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil </a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="e5.html">E5</a></li>
+                <li><a href="veille.html">Veille</a></li>
+                <li><a href="bilan.html">Bilan</a></li>
+                <li><a href="e6.html">E6</a></li>
+            </ul>
+        </nav>
+        <div id="mobileMenu" class="mobile-menu hidden">
+            <ul>
+                <li><a href="index.html">Accueil </a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="e5.html">E5</a></li>
+                <li><a href="veille.html">Veille</a></li>
+                <li><a href="bilan.html">Bilan</a></li>
+                <li><a href="e6.html">E6</a></li>
+            </ul>
+        </div>
+    </header>
+    <main id="accueil">
+        <section class="hero">
+            <h1 style="font-size:2.6rem;font-weight:700;letter-spacing:1px;margin-bottom:0.5em;">Bilan</h1>
+            <p class="subtitle">Résumé des acquis pendant mes deux années de BTS SIO en alternance.</p>
+        </section>
+
+        <section class="section modern">
+            <h2>Résumé</h2>
+            <p>Ces deux années de BTS SIO option SISR en alternance m'ont permis d'acquérir de solides compétences techniques et humaines. L'alternance a été une expérience enrichissante : mise en pratique des connaissances dans un contexte professionnel, autonomie, rigueur et travail en équipe. J'aimerais poursuivre mes études en Bachelor AIS pour approfondir mes compétences.</p>
+        </section>
+
+        <section class="section modern">
+            <h2>Compétences techniques</h2>
+            <div class="tiles tiles--skills">
+                <div class="tile">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 6h18v4H3zM3 14h18v4H3zM6 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM6 16a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>
+                    </div>
+                    <h3 class="tile__title">Administration systèmes</h3>
+                    <div class="tile__detail">AD, O365, Linux, ProxMox, VMware</div>
+                </div>
+
+                <div class="tile">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="17" r="2"/></g><path d="M8.2 7.2L11.5 14.5M12.5 14.5L15.8 7.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                    </div>
+                    <h3 class="tile__title">Administrattion Réseaux</h3>
+                    <div class="tile__detail">DHCP, DNS, Configuration Switch &amp; Routeur, VLAN, Packet Tracer</div>
+                </div>
+
+                <div class="tile">
+                    <div class="cert-icon">
+                        <!-- shield SVG -->
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+                    </div>
+                    <h3 class="tile__title">Cybersécurité</h3>
+                    <div class="tile__detail">Pare-feu, Sniffing, bases sur CSRF/XSS</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section modern">
+            <h2>Compétences générales</h2>
+            <div class="tiles tiles--skills">
+                <div class="tile">
+                    <div class="cert-icon">
+                        <!-- teamwork SVG -->
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zM8 11c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13zM16 13c-.29 0-.62.02-.97.05 1.16.84 1.97 2.03 1.97 3.45V19h6v-2.5C23 14.17 18.33 13 16 13z"/></svg>
+                    </div>
+                    <h3 class="tile__title">Travail d'équipe</h3>
+                    <div class="tile__detail">Organisation, collaboration, bienveillance</div>
+                </div>
+
+                <div class="tile">
+                    <div class="cert-icon">
+                        <!-- person SVG -->
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/></svg>
+                    </div>
+                    <h3 class="tile__title">Savoir-être</h3>
+                    <div class="tile__detail">Autonomie, Rigueur, Persévérance</div>
+                </div>
+
+                <div class="tile">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zM9.5 11h5a.5.5 0 0 1 .5.5v.5H9v-.5a.5.5 0 0 1 .5-.5zM8 16h8v1H8z"/></svg>
+                    </div>
+                    <h3 class="tile__title">Conformité</h3>
+                    <div class="tile__detail">Sens des droits &amp; RGPD</div>
+                </div>
+            </div>
+        </section>
+    
+
+    </main>
+    <footer class="footer">
+        <div class="footer-social">
+
+            <a href="https://www.linkedin.com/in/dany-lin-6096812bb/?originalSubdomain=fr" target="_blank"
+                rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5 2.5 2.5 0 0 1 4.98 3.5ZM3 9h4v12H3zm7 0h3.8v1.7h.1c.5-.9 1.7-1.8 3.5-1.8 3.8 0 4.5 2.5 4.5 5.7V21H18v-5.4c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9V21H10Z" />
+                </svg></a>
+        </div>
+        <div class="footer-links">
+            <a href="mentions-legales.html">Mentions légales</a>
+            <a href="securite.html">Sécurisation du site</a>
+        </div>
+        <p class="footer-meta">© <span id="year"></span> LIN Dany — Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

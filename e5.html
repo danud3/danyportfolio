@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E5 | LIN Dany — Portfolio SISR</title>
+    <meta name="description" content="Réalisations E5 BTS SIO SISR: Projets menés en entreprise et à l'école, compétences développées." />
+    <meta name="keywords" content="E5, BTS SIO, SISR, Réalisations, Entreprise, École, Active Directory, GLPI" />
+    <meta name="theme-color" content="#2563eb" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="page-e5">
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="logo" aria-label="Accueil">LIN Dany</a>
+            <button id="menuToggle" class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="e5.html" class="active">E5</a></li>
+                <li><a href="veille.html">Veille</a></li>
+                <li><a href="bilan.html">Bilan</a></li>
+                <li><a href="e6.html">E6</a></li>
+            </ul>
+        </nav>
+        <div id="mobileMenu" class="mobile-menu hidden">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="e5.html">E5</a></li>
+                <li><a href="veille.html">Veille</a></li>
+                <li><a href="bilan.html">Bilan</a></li>
+                <li><a href="e6.html">E6</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="e6-hero">
+            <div class="e6-hero__content">
+                <div class="e6-hero__text">
+                    <h1>Réalisations E5</h1>
+                    <p class="e6-hero__subtitle">Projets menés en entreprise et à l'école</p>
+                    <p class="e6-hero__description">
+                        Durant la période E5, j'ai réalisé plusieurs projets techniques en entreprise et à l'école,
+                        développant mes compétences en administration système, infrastructure réseau et gestion des services informatiques.
+                    </p>
+                    <div class="e6-hero__tags">
+                        <span class="tag">Administration Système</span>
+                        <span class="tag">Infrastructure Réseau</span>
+                        <span class="tag">Active Directory</span>
+                        <span class="tag">GLPI</span>
+                    </div>
+                </div>
+                <div class="e6-hero__visual">
+                    <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="50" y="50" width="300" height="200" rx="20" fill="url(#grad1)" opacity="0.1"/>
+                        <rect x="70" y="70" width="120" height="80" rx="10" fill="#2563eb" opacity="0.8"/>
+                        <rect x="210" y="70" width="120" height="80" rx="10" fill="#7c3aed" opacity="0.8"/>
+                        <rect x="70" y="170" width="120" height="60" rx="10" fill="#0f172a" opacity="0.8"/>
+                        <rect x="210" y="170" width="120" height="60" rx="10" fill="#475569" opacity="0.8"/>
+                        <circle cx="130" cy="110" r="8" fill="white"/>
+                        <circle cx="270" cy="110" r="8" fill="white"/>
+                        <rect x="120" y="190" width="20" height="4" rx="2" fill="white"/>
+                        <rect x="260" y="190" width="20" height="4" rx="2" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- Réalisations Entreprise -->
+        <section class="e6-section e6-entreprise">
+            <div class="e6-section__container">
+                <h2>Réalisations d'Entreprise</h2>
+                <p class="e6-section__subtitle">Projets techniques menés en milieu professionnel</p>
+                <div class="realisations-grid">
+                    <article class="realisation-card">
+                        <div class="realisation-icon"><i class="fas fa-desktop"></i></div>
+                        <h3>Configuration PC Siège</h3>
+                        <p><strong>Contexte :</strong> Standardisation des postes de travail au siège pour garantir une configuration uniforme et sécurisée.</p>
+                        <a class="btn-projet" href="Procédure/Configuration PC SIège.pdf" target="_blank" rel="noopener">
+                            <i class="fas fa-file-pdf"></i> Procédure
+                        </a>
+                    </article>
+
+                    <article class="realisation-card">
+                        <div class="realisation-icon"><i class="fas fa-users"></i></div>
+                        <h3>Création de comptes utilisateurs</h3>
+                        <p><strong>Contexte :</strong> Gestion centralisée des identités et des accès pour les nouveaux collaborateurs et les changements de poste.</p>
+                        <a class="btn-projet" href="Procédure/Création compte Siège.pdf" target="_blank" rel="noopener">
+                            <i class="fas fa-file-pdf"></i> Procédure
+                        </a>
+                    </article>
+
+                    <article class="realisation-card">
+                        <div class="realisation-icon"><i class="fas fa-ticket-alt"></i></div>
+                        <h3>Gestion des tickets GLPI</h3>
+                        <p><strong>Contexte :</strong> Centralisation et suivi des demandes d'assistance technique pour améliorer la réactivité et la traçabilité.</p>
+                        <a class="btn-projet" href="Procédure/Cycle de vie GLPI.pdf" target="_blank" rel="noopener">
+                            <i class="fas fa-file-pdf"></i> Procédure
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Réalisations École -->
+        <section class="e6-section e6-ecole">
+            <div class="e6-section__container">
+                <h2>Réalisations d'École</h2>
+                <p class="e6-section__subtitle">Projets académiques développant les compétences techniques</p>
+                <div class="realisations-grid">
+                    <article class="realisation-card">
+                        <div class="realisation-icon"><i class="fas fa-server"></i></div>
+                        <h3>Mise en place d'un Active Directory</h3>
+                        <p><strong>Contexte :</strong> Mise en place d'une infrastructure d'annuaire centralisée pour la gestion des utilisateurs et des ressources.</p>
+                        <a class="btn-projet" href="assets/procedures/ad-setup.pdf" target="_blank" rel="noopener">
+                            <i class="fas fa-file-pdf"></i> Procédure
+                        </a>
+                    </article>
+
+                    <article class="realisation-card">
+                        <div class="realisation-icon"><i class="fas fa-cogs"></i></div>
+                        <h3>Configuration d'une GPO</h3>
+                        <p><strong>Contexte :</strong> Application de politiques de sécurité et de configuration uniformes sur le domaine.</p>
+                        <a class="btn-projet" href="assets/procedures/gpo-procedure.pdf" target="_blank" rel="noopener">
+                            <i class="fas fa-file-pdf"></i> Procédure
+                        </a>
+                    </article>
+
+                    <article class="realisation-card">
+                        <div class="realisation-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Mise en place d'un GLPI</h3>
+                        <p><strong>Contexte :</strong> Déploiement d'un outil de gestion des incidents et du parc informatique pour centraliser les demandes d'assistance.</p>
+                        <a class="btn-projet" href="assets/procedures/glpi-setup.pdf" target="_blank" rel="noopener">
+                            <i class="fas fa-file-pdf"></i> Procédure
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fiche de Synthèse -->
+        <section class="e6-section e6-synthese">
+            <div class="e6-section__container">
+                <h2>Fiche de Synthèse E5</h2>
+                <p class="e6-section__subtitle">Document récapitulatif des compétences et réalisations acquises</p>
+                <div class="synthese-container">
+                    <div class="synthese-card">
+                        <div class="synthese-icon"><i class="fas fa-table"></i></div>
+                        <h3>Tableau de Synthèse</h3>
+                        <p>Consultez le tableau récapitulatif complet de toutes les compétences développées et des projets réalisés durant la période E5.</p>
+                        <a class="btn-projet" href="Projet/8 - ANNEXE VI.1 - EPREUVE E5 TABLEAU DE SYNTHESE - BTS SIO 2026 (1).pdf" target="_blank" rel="noopener">
+                            <i class="fas fa-file-pdf"></i> Consulter la synthèse
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/dany-lin-6096812bb/?originalSubdomain=fr" target="_blank"
+                rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5 2.5 2.5 0 0 1 4.98 3.5ZM3 9h4v12H3zm7 0h3.8v1.7h.1c.5-.9 1.7-1.8 3.5-1.8 3.8 0 4.5 2.5 4.5 5.7V21H18v-5.4c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9V21H10Z" />
+                </svg></a>
+        </div>
+        <div class="footer-links">
+            <a href="mentions-legales.html">Mentions légales</a>
+            <a href="securite.html">Sécurisation du site</a>
+        </div>
+        <p class="footer-meta">© <span id="year"></span> LIN Dany — Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

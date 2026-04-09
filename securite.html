@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sécurité du site | LIN Dany — Portfolio</title>
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="logo" aria-label="Accueil">LIN Dany</a>
+            <button id="menuToggle" class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil </a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="e5.html">E5</a></li>
+                <li><a href="veille.html">Veille</a></li>
+                <li><a href="bilan.html">Bilan</a></li>
+                <li><a href="e6.html">E6</a></li>
+            </ul>
+        </nav>
+        <div id="mobileMenu" class="mobile-menu hidden">
+            <ul>
+                <li><a href="index.html">Accueil </a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="e5.html">E5</a></li>
+                <li><a href="veille.html">Veille</a></li>
+                <li><a href="bilan.html">Bilan</a></li>
+                <li><a href="e6.html">E6</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="hero--title">Sécurité du site</h1>
+            <p class="subtitle">Synthèse des mesures de sécurité et de confidentialité.</p>
+        </section>
+        <section class="section modern">
+            <h2>Mesures de sécurité</h2>
+            <ul class="list">
+                <li>Utilisation du protocole <strong>HTTPS</strong> pour une navigation sécurisée à l'aide d'un certificat <strong>TLS</strong>.</li>
+            </ul>
+        </section>
+        <section class="section modern">
+            <h2>Politique de confidentialité</h2>
+            <ul class="list">
+                <li>Aucune donnée des visiteurs de ce site web n'est récoltée et/ou traitée. Il n'y a aucun usage de cookies.</li>
+            </ul>
+        </section>
+        <section class="section modern">
+            <h2>Hébergement</h2>
+            <ul class="list">
+                <li>Ce portfolio est hébergé par <strong>Vercel</strong>. Le déploiement est réalisé via Vercel.</li>
+            </ul>
+        </section>
+        <section class="section modern">
+            <h2>Coordonnées</h2>
+            <ul class="list">
+
+                <li>Téléphone : <strong>06 52 14 33 78</strong></li>
+                <li>Ville : <strong>Levallois</strong></li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-social">
+
+            <a href="https://www.linkedin.com/in/dany-lin-6096812bb/?originalSubdomain=fr" target="_blank"
+                rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5 2.5 2.5 0 0 1 4.98 3.5ZM3 9h4v12H3zm7 0h3.8v1.7h.1c.5-.9 1.7-1.8 3.5-1.8 3.8 0 4.5 2.5 4.5 5.7V21H18v-5.4c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9V21H10Z" />
+                </svg></a>
+        </div>
+        <div class="footer-links">
+            <a href="mentions-legales.html">Mentions légales</a>
+            <a href="securite.html">Sécurisation du site</a>
+        </div>
+        <p class="footer-meta">© <span id="year"></span> LIN Dany — Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
